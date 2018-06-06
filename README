@@ -1,0 +1,9 @@
+Hi, this python script will probably not be useful for you, but nonetheless I'll explain it's purposes.
+
+This is a work-in-progress type of a project that I'm putting together to minimize the ammount of Mikrotik Router Configs that I have to write/assemble by hand, most of the code values such as my working directory and the way I get IP addresses, hence your data will probably be different and you'll have to reformat a lot of things.
+
+Since this project is still fresh, there will be a lot of hardcoded things which, when I'm done implementing all the router configurations, I will re-write into better and cleaner code.
+
+Python version is 2.7.15rc1
+
+
