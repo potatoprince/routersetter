@@ -55,7 +55,7 @@ if routerNameORetherCount == "rb":
         2) CCR1036-12G-4S\n")
     routerboardName = raw_input('Input Routerboard number: ')
 
-    
+             # CONFIG FOR RB3011 
     if routerboardName == '1':
         f.write(bridges_RB3011)
         boardCount = input("How many boards to test: ")
@@ -82,6 +82,7 @@ add interface=ether9 name=vlan"+str(n)+"1 vlan-id="+str(n)+"1\n")
 add address=192.168."+str(n)+"1.10/24 interface=vlan"+str(n)+"1\n\n\n")
             v+=1
 
+            # CONFIG FOR CCR1036-12G-4S
     if routerboardName == '2':
         f.write(bridges_CCR1036_12G_4S)
         boardCount = input("how many boards to test: ")
